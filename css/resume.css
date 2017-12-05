@@ -4,10 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+ @import url('https://fonts.googleapis.com/css?family=Dosis:300|Lato');
+
 
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Lato', serif;
   padding-top: 54px;
   color: #868e96; }
 
@@ -22,10 +24,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Quicksand',sans-serif;
-  font-weight: 700;
+  font-family: 'Dosis',sans-serif !important;
+  font-weight: 400;
   text-transform: uppercase;
-  color: #343a40; }
+  color: #495057; }
 
 h1 {
   font-size: 6rem;
@@ -36,21 +38,21 @@ h2 {
 
 .subheading {
   text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.35rem; }
+  font-weight: 300;
+  font-family: 'Dosis', sans-serif !important;
+  font-size: 1.25rem; }
 
 .list-social-icons a {
   color: #495057; }
   .list-social-icons a:hover {
-    color: #6610f2; }
+    color: #495057; }
   .list-social-icons a .fa-lg {
     font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #6610f2; }
+    color: #495057; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -107,12 +109,12 @@ section.resume-section {
     padding-bottom: 3rem !important; } }
 
 .bg-primary {
-  background-color: #6610f2 !important; }
+  background-color: #495057 !important; }
 
 .text-primary {
-  color: #6610f2 !important; }
+  color: #495057 !important; }
 
 a {
-  color: #6610f2; }
+  color: #495057; }
   a:hover, a:focus, a:active {
     color: #824027; }
